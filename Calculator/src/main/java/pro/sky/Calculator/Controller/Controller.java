@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import pro.sky.Calculator.Service.Service;
 
-import java.util.Scanner;
-
 @RestController
 @RequestMapping(path = "/calculator")
 public class Controller {
